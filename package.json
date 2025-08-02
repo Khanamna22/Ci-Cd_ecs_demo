@@ -1,0 +1,14 @@
+{
+  "name": "ci-cd-ecs-demo",
+  "version": "1.0.0",
+  "description": "Simple Node.js app for CI/CD pipeline to ECS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Amna Khan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
