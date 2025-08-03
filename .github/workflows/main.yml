@@ -35,7 +35,7 @@ env:
   ECR_REPOSITORY: ecs-cicd-demo        # set this to your Amazon ECR repository name
   ECS_SERVICE: ecs-cicd-task-service             # set this to your Amazon ECS service name
   ECS_CLUSTER: cicd-cluster              # set this to your Amazon ECS cluster name
-  ECS_TASK_DEFINITION: ecs-cicd-task # set this to the path to your Amazon ECS task definition
+  ECS_TASK_DEFINITION: ecs-cicd-task:2 # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: ecs-app          # set this to the name of the container in the
                                                # containerDefinitions section of your task definition
